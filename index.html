@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/global.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Pokédex</title>
+</head>
+<body>
+    <!--
+        <i class='bx bxs-doughnut-chart'></i> (normal)
+        <i class='bx bxs-hot'></i> (fire)
+        <i class='bx bxs-shower'></i> (water)
+        <i class='bx bxs-bolt'></i> (electric)
+        <i class='bx bxs-leaf' ></i> (plant)
+        <i class='bx bxs-popsicle' ></i> (ice)
+        <i class='bx bxs-hand'></i> (fight)
+        <i class='bx bxs-skull'></i> (poison)
+        <i class='bx bxs-landscape'></i> (ground)
+        <i class='bx bxs-paper-plane'></i> (flying)
+        <i class='bx bxs-brain'></i> (psychic)
+        <i class='bx bxs-bug'></i> (bug)
+        <i class='bx bxs-component'></i> (rock)
+        <i class='bx bxs-ghost'></i> (ghost)
+        <i class='bx bxs-castle'></i> (dragon)
+        <i class='bx bxs-star'></i> (fairy)
+        <i class='bx bxs-shield-alt-2'></i> (steel)
+        <i class='bx bx-search-alt'></i> (search)
+        <i class='bx bxl-github'></i> (github)
+    -->
+    <header>
+        <img class="header-img" src="assets/images/logo.png" alt="Pokedex logo">
+        <h2>
+            Carrousel <span class="responsive-title">Pokédex</span>
+        </h2>
+    </header>
+    <section class="search-section">
+        <div class="search-title">
+            <h1>
+                Pokédex
+            </h1>
+            <p>
+                Search your favourite Pokémon by name or number using our Carrousel Pokédex!
+            </p>
+        </div>
+        <div class="container">
+            <i class='bx bx-search-alt'></i>
+            <input 
+                type="search" 
+                id="search-bar"
+                class="search-input" 
+                placeholder="Bulbasaur or 001..."
+                name="q"
+                maxlength="15"
+            >
+        </div>
+    </section>
+    <div class="cards-container" id="pokemon-list"></div>
+    <footer class="footer-content">
+            <h2>Credits</h2>
+            <ul class="socials">
+                <li><a href="https://github.com/Paucizmadija"><i class='bx bxl-github'></i><span>Paula</span></a></li>
+                <li><a href="https://github.com/AixaFlores"><i class='bx bxl-github'></i><span>Aixa</span></a></li>
+                <li><a href="https://github.com/BelenDelgadilloArias"><i class='bx bxl-github'></i><span>Belen</span></a></li>
+                <li><a href="https://github.com/ValentinaBS"><i class='bx bxl-github'></i><span>Valentina</span></a></li>
+                <li><a href="https://github.com/ludm1"><i class='bx bxl-github'></i><span>Ludmila</span></a></li>
+            </ul>
+    </footer>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
