@@ -106,8 +106,8 @@ header {
  @media (max-width:700px) {
     header {
         flex-direction: column;
-    }
- }
+     }
+}
 
 h2 {
     font-size: 1.8em;
