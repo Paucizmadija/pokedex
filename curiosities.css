@@ -42,4 +42,25 @@ section{
     bottom: 80px;
     text-align: center;
     font-size: 36px;
+} 
+/* Social Media Updates */
+
+.updates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px; 
+    margin: 0 auto;
   }
+  
+  .updates-title {
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .twitter-container {
+    max-height: 500px; 
+    overflow-y: scroll;
+  }
+  
