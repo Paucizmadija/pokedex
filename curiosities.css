@@ -30,3 +30,16 @@ section{
 .pkm2 {
     float: right;
 }
+
+.arriba {
+    background-color: #1F3D69;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    text-align: center;
+    font-size: 36px;
+  }
