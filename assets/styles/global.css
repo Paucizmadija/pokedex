@@ -502,3 +502,165 @@ ul{
         flex-direction: row;
     }
 }
+/* info section */
+
+.item1 { grid-area: Id-area; }
+.item2 { grid-area: Pokemon-img; }
+.item3 { grid-area: About; }
+.item4 { grid-area: Stats; }
+.item5 { grid-area: Types; }
+.item6 { grid-area: Weakness; }
+.item7 { grid-area: Habilities; }
+
+.grid-container{
+    background-color: #F5F5F5;
+    column-gap: 5rem;
+    row-gap: 1rem;
+    margin: 5px 5px;
+    display: grid;
+    grid-template-areas:'Pokemon-img Pokemon-img Pokemon-img Id-area Id-area'
+    'Pokemon-img Pokemon-img Pokemon-img About About'
+    'Pokemon-img Pokemon-img Pokemon-img Stats Stats'
+    'Habilities Habilities Habilities Types Types'
+    'Habilities Habilities Habilities Weakness Weakness'
+}
+.item1 {
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px 3px lightgrey;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    height: 100px;
+}
+
+.item1 .p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 800;
+    margin: 18px 20px;
+    padding: 1rem;
+}
+    
+.item2{
+    background-color: var(--electric-light);
+    background-image: url(../images/bg-pokeball.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 5px 5px 5px 3px lightgrey;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    width: 400px;
+    height: 460px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+.item2 img{
+    min-width: 350px;
+    width: 380px;
+    height: 420px;
+}
+
+.item3{
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px 3px lightgrey;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    height: 150px;
+}
+
+.item3 .p {
+    text-align: center;
+    text-transform: initial;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 15px 10px;
+}
+
+.item4{
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px 3px lightgrey;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    height: 150px;
+}
+
+.item4 .p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.item5 {
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+.item5 .p {
+    text-align: top left;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.item5 button{
+    background-color: var(--electric-dark);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 300;
+    border-radius: 15px;
+}
+
+.item6 {
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+.item6 .p {
+    text-align: top left;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.item6 button {
+    background-color: var(--ground-dark);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 300;
+    border-radius:15px;
+}
+
+.item7 {
+    background-color: lightgray; 
+    box-shadow: 5px 5px 5px 3px lightgrey;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+.item7 .p {
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: x-large;
+    padding: 1rem;
+}
