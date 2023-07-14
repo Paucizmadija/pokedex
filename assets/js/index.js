@@ -1,5 +1,6 @@
 const pokemonList = document.getElementById("pokemon-list");
 const searchInput = document.getElementById("search-bar");
+const botonNav = document.querySelectorAll(".btn-section");
 let URL = "https://pokeapi.co/api/v2/pokemon/";
 
 for (let i = 1; i <= 151; i++) {
@@ -129,3 +130,28 @@ function handleSearch(event) {
         }
     }
 }
+
+
+botonNav.forEach(boton => boton.addEventListener("click", (event) => {
+    const botonId = event.currentTarget.id;
+
+    pokemonList.innerHTML = "";
+
+    for (let i = 1; i <= 151; i++) {
+        fetch(URL + i)
+            .then((res) => res.json())
+            .then((data => {
+
+                if(botonId === "ver-todos") {
+                    showPokemon(data);
+                } else {
+                    const tipos = data.types.map(type => type.type.name);
+                    if (tipos.some(tipo => tipo.includes(botonId))) {
+                     showPokemon(data);
+                    }
+                }
+
+            }))
+    }
+}))
+
