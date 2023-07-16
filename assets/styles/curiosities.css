@@ -49,6 +49,7 @@ section{
     text-align: center;
     font-size: 36px;
 } 
+
 /* Social Media Updates */
 
 .updates-container {
@@ -68,5 +69,8 @@ section{
   .twitter-container {
     max-height: 500px; 
     overflow-y: scroll;
-  }
-  
+  } 
+
+.twitter-container::-webkit-scrollbar {
+    display: none; 
+}

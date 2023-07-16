@@ -248,7 +248,9 @@ p {
 .steel-light {
     background-color: var(--steel-light);
 }
+
 /*filtro*/
+
 section {
     padding-block: 1rem;
     box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
