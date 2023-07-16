@@ -45,6 +45,8 @@ Users should be able to:
 - Github - [Paucizmadija](https://github.com/Paucizmadija)
 - Linkedin - [Belén Delgadillo Arias](https://www.linkedin.com/in/belen-delgadillo-arias-349043251)
 - Github - [BelenDelgadilloArias](https://github.com/BelenDelgadilloArias)
+- Linkedin - [Florencia Pereyra Ramos](https://www.linkedin.com/in/florenciacamilapereyraramos)
+- Github - [FlorPereyra](https://github.com/FlorPereyra)
 
 ---
 
@@ -95,3 +97,5 @@ Los usuarios deberían ser capaces de:
 - Github - [Paucizmadija](https://github.com/Paucizmadija)
 - Linkedin - [Belén Delgadillo Arias](https://www.linkedin.com/in/belen-delgadillo-arias-349043251)
 - Github - [BelenDelgadilloArias](https://github.com/BelenDelgadilloArias)
+-  Linkedin - [Florencia Pereyra Ramos](https://www.linkedin.com/in/florenciacamilapereyraramos)
+- Github - [FlorPereyra](https://github.com/FlorPereyra)
