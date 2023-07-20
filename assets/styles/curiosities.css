@@ -37,6 +37,11 @@ section{
     float: right;
 }
 
+/* Botón para ir al inicio de página */
+
+.top {
+    display: block;
+}
 .arriba {
     background-color: var(--main);
     color: var(--light);
