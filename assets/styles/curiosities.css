@@ -48,6 +48,13 @@ section{
     bottom: 80px;
     text-align: center;
     font-size: 36px;
+}
+/*Animaciones en imagenes*/
+.imagenes:hover {
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-timing-function: ease;
 } 
 
 /* Social Media Updates */
