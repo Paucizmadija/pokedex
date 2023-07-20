@@ -265,12 +265,13 @@ button {
     flex-direction: column;
     gap: 1rem;
     align-items: flex-start;
-    padding-inline: rem;
+    padding-inline: 2rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 .nav-list {
     display: flex;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: .5rem;
@@ -302,9 +303,11 @@ header {
     text-align: center;
 }
 
-.responsive-title {
-    display: none;
+/*.responsive-title {
+    /*display: none;
 }
+    */
+
 
 .header-img {
     height: 2rem;
