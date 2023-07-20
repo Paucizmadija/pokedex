@@ -22,6 +22,15 @@ section{
     margin-bottom: 5%;
 }
 
+.textHover{
+ border-radius: 20px;
+ padding: 2%;
+}
+.textHover:hover{
+    background-color: #EB87B8;
+    transition: 1s;
+}
+
 .pkm1 {
     width: 45%;
     margin-right: 10px;
@@ -37,11 +46,6 @@ section{
     float: right;
 }
 
-/* Botón para ir al inicio de página */
-
-.top {
-    display: block;
-}
 .arriba {
     background-color: var(--main);
     color: var(--light);
