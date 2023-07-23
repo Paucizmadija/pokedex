@@ -154,4 +154,3 @@ botonNav.forEach(boton => boton.addEventListener("click", (event) => {
             }))
     }
 }))
-
