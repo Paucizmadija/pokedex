@@ -77,7 +77,7 @@ Los usuarios deberían ser capaces de:
 
 ### Sitio Web
 
-- URL del Sitio: [Pokédex](pokedex-ashy-theta.vercel.app)
+- URL del Sitio: [Pokédex](https://proyecto-pokedex-seven.vercel.app/)
 
 ### Hecho con
 
