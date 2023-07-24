@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Live Site
 
-- Live Site URL: [Pokédex](pokedex-ashy-theta.vercel.app)
+- Live Site URL: [Pokédex](https://proyecto-pokedex-seven.vercel.app/)
 
 ### Built with
 
